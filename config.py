@@ -15,7 +15,7 @@
 #   OS X sample: "/Applications/50_reprap_python_beanshell/skeinforge_application/skeinforge_plugins/craft.py"
 #   Windows: better to double backslashes
 #   Windows sample: "C:\\50_reprap_python_beanshell\\skeinforge_application\\skeinforge_plugins\\craft.py"
-skCraftPath = "/xxx/skeinforge_application/skeinforge_plugins/craft.py"
+skCraftPath = "skeinforge_application/skeinforge_plugins/craft.py"
 
 # absolute path to Skeinforge's extrusion profile directory:
 # (profiles used by Skeinforge and then skFrontend are into this directory)
@@ -24,11 +24,11 @@ skCraftPath = "/xxx/skeinforge_application/skeinforge_plugins/craft.py"
 #   Windows: better to double backslashes
 #   Windows sample: "C:\\Users\\userName\\.skeinforge\\profiles\\extrusion"
 #   Windows sample: "C:\\Documents and Settings\\userName\\.skeinforge\\profiles\\extrusion"
-skProfilesDirectory = "/xxx/.skeinforge/profiles/extrusion"
+skProfilesDirectory = "sfact_profiles/profiles/extrusion"
 
 # name of the default profile used by skFrontend
 # this profile must exists as a directory into your skProfilesDirectory
-skDefaultProfileName = ""
+skDefaultProfileName = "Default"
 
 #-----------------------------------------------------
 ''' controls configuration to be adapted to your usage,
@@ -121,7 +121,7 @@ if interfaceLanguage == "en":
   multiplyActivityLabel = "Multiply"
   skirtListLabel = "Skirt Layers"
   saveButtonLabel = "Save Modifications"
-  chooseFileButtonLabel = "What to Skeinforge?"
+  chooseFileButtonLabel = "select STL?"
   noFileSelectedText = "No File Selected"
   runSkeinforgeButtonLabel = "Generate G-code"
   quitButtonLabel = "Quit"
